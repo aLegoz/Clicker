@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box; }
+  *:active, *:hover, *:focus {
+    outline: 0; }
+
+html {
+  height: 100%;
+  font-family: sans-serif, arial;
+  font-weight: 400;
+  font-size: 12px; }
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+body, h1, h2, h3, h4, ul, ol, figure {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.clicker {
+  width: 600px;
+  height: 200px;
+  background-color: #585858;
+  position: absolute;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  padding: 20px; }
+  .clicker__count {
+    height: 60%;
+    background-color: #979797;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center; }
+  .clicker__button {
+    background-color: #b6b6b6;
+    width: 100%;
+    height: 20%;
+    border: none;
+    padding: none; }
+    .clicker__button:hover {
+      background-color: #727272; }
+  .clicker__button-auto {
+    background-color: #9e9e9e;
+    width: 100%;
+    height: 20%;
+    border: none;
+    padding: none; }
+    .clicker__button-auto:hover {
+      background-color: #727272; }
